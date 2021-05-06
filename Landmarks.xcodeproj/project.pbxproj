@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5210FFEF264485640090F68C /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210FFEE264485640090F68C /* ProfileEditor.swift */; };
 		522F35AC26387D21001F2721 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F35AB26387D21001F2721 /* LandmarksApp.swift */; };
 		522F35BE26387D24001F2721 /* LandmarksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F35BD26387D24001F2721 /* LandmarksTests.swift */; };
 		522F35C926387D24001F2721 /* LandmarksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522F35C826387D24001F2721 /* LandmarksUITests.swift */; };
@@ -59,6 +60,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5210FFEE264485640090F68C /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		522F35A826387D21001F2721 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		522F35AB26387D21001F2721 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		522F35B426387D23001F2721 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -256,6 +258,7 @@
 			children = (
 				52E89514264325460035425C /* ProfileHost.swift */,
 				52E8951C264327D30035425C /* ProfileSummary.swift */,
+				5210FFEE264485640090F68C /* ProfileEditor.swift */,
 			);
 			path = Profiles;
 			sourceTree = "<group>";
@@ -428,6 +431,7 @@
 				52D88D0D264089A700B8CA79 /* Hike.swift in Sources */,
 				52BDF34C263C6216008CA4AB /* RotatedBadgeSymbol.swift in Sources */,
 				52BDF347263C5A5D008CA4AB /* BadgeSymbol.swift in Sources */,
+				5210FFEF264485640090F68C /* ProfileEditor.swift in Sources */,
 				522F35E02638800D001F2721 /* MapView.swift in Sources */,
 				52D88D1926408BE900B8CA79 /* HikeView.swift in Sources */,
 				522F35AC26387D21001F2721 /* LandmarksApp.swift in Sources */,
