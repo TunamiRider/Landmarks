@@ -9,9 +9,31 @@ import SwiftUI
 
 struct PageView<Page: View>: View {
     var pages: [Page]
+    @State private var currentPage = 0
     
     var body: some View {
-        PageViewController(pages: pages)
+        VStack{
+            PageViewController(pages: pages, currentPage: $currentPage)
+            
+            Button(action: {
+                if (ModelData().features.endIndex-1 == self.currentPage)
+                { self.currentPage = 0; do{ sleep( 1 / 10 ) } }
+                else{ self.currentPage += 1 }
+
+            }) {
+                Text("Current Page: \(currentPage)")
+                HStack {
+                    Text("Jump to next page")
+                }.padding(10.0)
+                .overlay(
+                    RoundedRectangle(cornerRadius: 10.0)
+                        .stroke(lineWidth: 1.0)
+                )
+            }
+
+            
+        }
+        
     }
 }
 
