@@ -61,6 +61,19 @@ struct PageViewController<Page: View>: UIViewControllerRepresentable {
             if index + 1 == controllers.count { return controllers.first }
             return controllers[index + 1]
         }
+        
+        func pageViewController(
+            _ pageViewController: UIPageViewController,
+            didFinishAnimating finished: Bool,
+            previousViewControllers: [UIViewController],
+            transitionCompleted completed: Bool)
+        {
+            if completed,
+               let visibleViewController = pageViewController.viewControllers?.first,
+               let index = controllers.firstIndex(of: visibleViewController)
+            { parent.currentPage = index }
+        }
+        
     }
     
 }

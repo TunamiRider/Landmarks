@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		52100002264711C00090F68C /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52100001264711C00090F68C /* PageView.swift */; };
+		52100007264867B30090F68C /* PageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52100006264867B30090F68C /* PageControl.swift */; };
 		5210FFEF264485640090F68C /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210FFEE264485640090F68C /* ProfileEditor.swift */; };
 		5210FFF52646FCC70090F68C /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210FFF42646FCC70090F68C /* PageViewController.swift */; };
 		5210FFFD264702BE0090F68C /* FeatureCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5210FFFC264702BE0090F68C /* FeatureCard.swift */; };
@@ -64,6 +65,7 @@
 
 /* Begin PBXFileReference section */
 		52100001264711C00090F68C /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
+		52100006264867B30090F68C /* PageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageControl.swift; sourceTree = "<group>"; };
 		5210FFEE264485640090F68C /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		5210FFF42646FCC70090F68C /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		5210FFFC264702BE0090F68C /* FeatureCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeatureCard.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 				5210FFF42646FCC70090F68C /* PageViewController.swift */,
 				5210FFFC264702BE0090F68C /* FeatureCard.swift */,
 				52100001264711C00090F68C /* PageView.swift */,
+				52100006264867B30090F68C /* PageControl.swift */,
 			);
 			path = PageView;
 			sourceTree = "<group>";
@@ -440,6 +443,7 @@
 				522F35EC26388029001F2721 /* ModelData.swift in Sources */,
 				52D88D1626408BE900B8CA79 /* GraphCapsule.swift in Sources */,
 				522F35E52638800D001F2721 /* ContentView.swift in Sources */,
+				52100007264867B30090F68C /* PageControl.swift in Sources */,
 				52FDBB3C2639D441006AF85E /* FavoriteButton.swift in Sources */,
 				527F5C922641D5AC006897EB /* CategoryItem.swift in Sources */,
 				52D88D1826408BE900B8CA79 /* HikeDetail.swift in Sources */,
